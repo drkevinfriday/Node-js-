@@ -97,10 +97,10 @@ if (!portfolioData.projects) {
   .prompt([
     {
       type: 'input',
-      name: 'projectName',
+      name: 'name',
       message: 'what is the  name of your project? ',
-      validate: projectNameInput =>{
-        if(projectNameInput){
+      validate: NameInput =>{
+        if(NameInput){
           return true
         } else{
           console.log('what is the  name of your project? ')
