@@ -17,7 +17,9 @@
 //       GitHub: ${githubName}
 //     `;
 //   };
-const {writeFile,copyFile } = require('./utils/generate-site');
+//  imports the  the two functions from the generate-site.js
+
+const {writeFile, copyFile } = require('./utils/generate-site.js');
 const inquirer = require('inquirer');
 
 // turns the fucntion  in  page-template in to generatepage
